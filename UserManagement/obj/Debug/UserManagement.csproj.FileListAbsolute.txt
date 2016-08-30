@@ -1,0 +1,6 @@
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\bin\Debug\UserManagement.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\bin\Debug\UserManagement.pdb
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\obj\Debug\UserManagement.csprojResolveAssemblyReference.cache
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\obj\Debug\UserManagement.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\obj\Debug\UserManagement.pdb
+C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\bin\Debug\UserManagement.dll.config

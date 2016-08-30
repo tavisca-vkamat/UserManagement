@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8c9d6d1f-b5bd-44d6-8cb0-9d4d65817d59" name="vkamat@VIVEKK 2016-08-30 11:48:28" runUser="INTERNAL\vkamat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-30T11:48:28.6006507+05:30" queuing="2016-08-30T11:48:28.6006507+05:30" start="2016-08-30T11:48:27.5405447+05:30" finish="2016-08-30T11:48:28.6416548+05:30" />
+  <TestSettings name="default" id="13551dbd-f13a-45f5-87d1-8f2cc0062c82">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="vkamat_VIVEKK 2016-08-30 11_48_28" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="0d9c37cb-6b8c-48f1-b475-5dfe5ddc160b" testId="96b6424b-c20c-1bb9-b9a5-9910b5e33020" testName="CreateUserTest" computerName="VIVEKK" duration="00:00:00.0178534" startTime="2016-08-30T11:48:27.5405447+05:30" endTime="2016-08-30T11:48:27.7295636+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0d9c37cb-6b8c-48f1-b475-5dfe5ddc160b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CreateUserTest" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="96b6424b-c20c-1bb9-b9a5-9910b5e33020">
+      <Execution id="0d9c37cb-6b8c-48f1-b475-5dfe5ddc160b" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.UserManagement" name="CreateUserTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="96b6424b-c20c-1bb9-b9a5-9910b5e33020" executionId="0d9c37cb-6b8c-48f1-b475-5dfe5ddc160b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

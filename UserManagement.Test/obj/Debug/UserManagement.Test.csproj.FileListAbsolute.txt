@@ -1,0 +1,7 @@
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.pdb
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.pdb
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\obj\Debug\UserManagement.Test.csprojResolveAssemblyReference.cache
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\obj\Debug\UserManagement.Test.dll
+c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\obj\Debug\UserManagement.Test.pdb
