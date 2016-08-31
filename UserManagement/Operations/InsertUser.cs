@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UserManagement.Entities;
+using UserManagement.Validator;
 
 namespace UserManagement.Operations
 {
@@ -11,7 +8,7 @@ namespace UserManagement.Operations
     {
         public static int Insert(User user)
         {
-            if(user.Id < 0 || user.firstName==null || user.lastName==null || user.phoneNumber==null)
+            if(!ValidateUser.CheckFields(user))
             {
                 throw new Exception("Invalid inputs");
             }

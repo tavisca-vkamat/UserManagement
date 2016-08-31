@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="05135a05-90f1-4567-9296-9ec15eb01440" name="vkamat@VIVEKK 2016-08-30 16:51:19" runUser="INTERNAL\vkamat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-08-30T16:51:19.5333356+05:30" queuing="2016-08-30T16:51:19.5333356+05:30" start="2016-08-30T16:51:17.1951018+05:30" finish="2016-08-30T16:51:19.6293452+05:30" />
+  <TestSettings name="default" id="f360e85c-be81-4e27-a4e4-7c57a06c4c75">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="vkamat_VIVEKK 2016-08-30 16_51_19" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ec445ab6-c6bf-493d-b978-a171344af2db" testId="53298b9f-6aa1-07f0-d18e-4b7c90b6cc1f" testName="UpdateUserTestPhoneNumber" computerName="VIVEKK" duration="00:00:00.7120926" startTime="2016-08-30T16:51:17.1951018+05:30" endTime="2016-08-30T16:51:18.0871910+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec445ab6-c6bf-493d-b978-a171344af2db">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at UserManagement.Test.UpdateuserTest.UpdateUserTestPhoneNumber() in C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\UpdateuserTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="UpdateUserTestPhoneNumber" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="53298b9f-6aa1-07f0-d18e-4b7c90b6cc1f">
+      <Execution id="ec445ab6-c6bf-493d-b978-a171344af2db" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.UpdateuserTest" name="UpdateUserTestPhoneNumber" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="53298b9f-6aa1-07f0-d18e-4b7c90b6cc1f" executionId="ec445ab6-c6bf-493d-b978-a171344af2db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

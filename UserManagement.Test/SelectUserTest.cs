@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserManagement.Entities;
 using System.Collections.Generic;
 using UserManagement.Operations;
@@ -24,7 +23,7 @@ namespace UserManagement.Test
             UserTable user = SelectUser.SelectById(1);
 
             Assert.IsNotNull(user);
-            Assert.IsTrue(user.firstName == "vivek");
+            Assert.IsTrue(user.FIrstName == "vivek");
 
         }
     }

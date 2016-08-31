@@ -4,3 +4,7 @@ c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagem
 c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\obj\Debug\UserManagement.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\obj\Debug\UserManagement.pdb
 C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement\bin\Debug\UserManagement.dll.config
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

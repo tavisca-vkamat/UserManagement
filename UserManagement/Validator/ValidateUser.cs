@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using UserManagement.Entities;
 
 namespace UserManagement.Validator
 {
@@ -15,6 +12,15 @@ namespace UserManagement.Validator
             var query = from user in db.UserTables where user.Id == id select user;
             if (query.Count() == 0)
                 return false;
+            return true;
+        }
+
+        public static bool CheckFields(User user)
+        {
+            if (user.Id < 0 || user.firstName == null || user.lastName == null || user.phoneNumber == null)
+            {
+                return false;
+            }
             return true;
         }
     }

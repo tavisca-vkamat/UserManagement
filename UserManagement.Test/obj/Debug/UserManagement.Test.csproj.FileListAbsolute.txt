@@ -5,3 +5,12 @@ c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagem
 c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\obj\Debug\UserManagement.Test.csprojResolveAssemblyReference.cache
 c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\obj\Debug\UserManagement.Test.dll
 c:\users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\obj\Debug\UserManagement.Test.pdb
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml

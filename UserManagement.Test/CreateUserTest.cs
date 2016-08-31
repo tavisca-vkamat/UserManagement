@@ -3,6 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using UserManagement.Entities;
 using UserManagement.Operations;
 
+
 namespace UserManagement.Test
 {
     [TestClass]
@@ -11,11 +12,12 @@ namespace UserManagement.Test
         [TestMethod]
         public void TestForUserIdZero()
         {
+           
             User user = new User();
             user.Id = 0;
-            user.firstName = "vivek";
-            user.lastName = "kamat";
-            user.emailId = "vkamat@tavisca.com";
+            user.firstName = "vivekkk";
+            user.lastName = "kamatllll";
+            user.emailId = "vkahjgmat@tavisca.com";
             user.phoneNumber = "0123456789";
 
             int id = InsertUser.Insert(user);
