@@ -30,7 +30,7 @@ namespace UserManagement.Test
         {
             IUser user = ObjectFactory.GetInstanceIUser();
 
-            bool result = user.DeleteById(17);
+            bool result = user.DeleteById(15);
             Assert.IsTrue(result);
         }
     }

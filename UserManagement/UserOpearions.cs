@@ -107,12 +107,15 @@ namespace UserManagement
 
             if (ValidateUser.isUserExits(id))
             {
-                UserTable us = SelectUser.SelectById(id);
+                UserTable user = db.UserTables.FirstOrDefault(u => u.Id.Equals(id));
 
-                us.FIrstName = newName;
+                if (user != null)
+                {
+                    user.FIrstName = newName;
 
-                db.SubmitChanges();
-                return true;
+                    db.SubmitChanges();
+                    return true;
+                }
             }
             return false;
         }

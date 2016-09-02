@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bce17de2-d9bb-4fb1-9d35-fdc152e6ce60" name="vkamat@VIVEKK 2016-09-01 08:42:37" runUser="INTERNAL\vkamat" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2016-09-01T08:42:37.1340598+05:30" queuing="2016-09-01T08:42:37.1340598+05:30" start="2016-09-01T08:42:34.1581444+05:30" finish="2016-09-01T08:42:37.2080080+05:30" />
+  <TestSettings name="default" id="a57c7cc9-c870-4a60-80ec-2d9bd1498ac7">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="vkamat_VIVEKK 2016-09-01 08_42_37" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2919b1ec-8890-40a7-a5cc-265e0178e213" testId="f255c749-2dca-7fa1-f70e-9448a6a7b7ae" testName="TestForUserIdZero" computerName="VIVEKK" duration="00:00:01.3387594" startTime="2016-09-01T08:42:34.1581444+05:30" endTime="2016-09-01T08:42:35.6740825+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2919b1ec-8890-40a7-a5cc-265e0178e213" />
+    <UnitTestResult executionId="2b8d345e-1d0a-4bd9-8761-c577d3fea9d6" testId="53f73177-ea75-f540-d311-6e4dec33a70e" testName="UserSelectTestUsingSoldPrinciple" computerName="VIVEKK" duration="00:00:00.2284070" startTime="2016-09-01T08:42:36.0148438+05:30" endTime="2016-09-01T08:42:36.2446828+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b8d345e-1d0a-4bd9-8761-c577d3fea9d6" />
+    <UnitTestResult executionId="27603d2e-c225-4822-bab4-6f3d7126e472" testId="44fb7f8c-5ceb-5ceb-b515-8ebb73d8e276" testName="TestFirstNameNull" computerName="VIVEKK" duration="00:00:00.0068342" startTime="2016-09-01T08:42:35.6850748+05:30" endTime="2016-09-01T08:42:35.6920699+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27603d2e-c225-4822-bab4-6f3d7126e472" />
+    <UnitTestResult executionId="4bbac8d1-1201-452f-a733-e3783421fe98" testId="52608303-c7dc-e9f7-9675-69b33d4980b7" testName="TestForUserIdNotSet" computerName="VIVEKK" duration="00:00:00.0012011" startTime="2016-09-01T08:42:35.6930692+05:30" endTime="2016-09-01T08:42:35.6940685+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bbac8d1-1201-452f-a733-e3783421fe98" />
+    <UnitTestResult executionId="3653cc9c-9f94-4232-b42f-02b0adce9c83" testId="e2beefcb-b6e6-6a7b-a5a7-7de44cb58a8f" testName="UserUpdateFirstNameTest" computerName="VIVEKK" duration="00:00:00.0219834" startTime="2016-09-01T08:42:36.2516779+05:30" endTime="2016-09-01T08:42:36.2746618+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3653cc9c-9f94-4232-b42f-02b0adce9c83" />
+    <UnitTestResult executionId="3426bb5a-fbd3-407e-bedc-5daea624946a" testId="03c8c33e-0284-e92f-5c64-8ab64ba67d8f" testName="TestDeleteUserById" computerName="VIVEKK" duration="00:00:00.2328418" startTime="2016-09-01T08:42:35.6950678+05:30" endTime="2016-09-01T08:42:35.9289040+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3426bb5a-fbd3-407e-bedc-5daea624946a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UserManagement.Test.DeleteUserTest.TestDeleteUserById threw exception System.InvalidOperationException, but exception System.Exception was expected. Exception message: System.InvalidOperationException: Cannot remove an entity that has not been attached.</Message>
+          <StackTrace>    at System.Data.Linq.Table`1.DeleteOnSubmit(TEntity entity)
+   at UserManagement.Operations.DeleteUser.DeleteById(Int32 id) in C:\Users\vkamat\Documents\Visual Studio 2015\Projects\UserManagement\UserManagement\Operations\DeleteUser.cs:line 17
+   at UserManagement.Test.DeleteUserTest.TestDeleteUserById() in C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\DeleteUserTest.cs:line 14
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4e2d118a-dc77-4059-8c10-04aac0eb2a6c" testId="49859b7a-1723-d929-d9e7-426eaba2c9a2" testName="UserDeleteByIdTest" computerName="VIVEKK" duration="00:00:00.0042904" startTime="2016-09-01T08:42:36.2746618+05:30" endTime="2016-09-01T08:42:36.2796583+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e2d118a-dc77-4059-8c10-04aac0eb2a6c">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at UserManagement.Test.SOLIDTest.UserDeleteByIdTest() in C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\SOLIDTest.cs:line 34
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="996d7cfa-0ac9-4523-9b1d-9ee682f99a06" testId="a303f811-7283-0c5b-3645-a22db8fef9d5" testName="TestSelectAllUsers" computerName="VIVEKK" duration="00:00:00.0662878" startTime="2016-09-01T08:42:35.9299033+05:30" endTime="2016-09-01T08:42:35.9968564+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="996d7cfa-0ac9-4523-9b1d-9ee682f99a06" />
+    <UnitTestResult executionId="9efacc32-410c-4d9c-b3ad-9ffd87472b24" testId="4b34e9ea-61a9-1dc3-c4dd-b1537a11ea7b" testName="UpdateUserById" computerName="VIVEKK" duration="00:00:00.0034308" startTime="2016-09-01T08:42:36.2796583+05:30" endTime="2016-09-01T08:42:36.2846548+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9efacc32-410c-4d9c-b3ad-9ffd87472b24">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method UserManagement.Test.UpdateuserTest.UpdateUserById did not throw an exception. An exception was expected by attribute Microsoft.VisualStudio.TestTools.UnitTesting.ExpectedExceptionAttribute defined on the test method.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0b1cee82-4f5e-4486-99ff-c8e7013e6f0b" testId="53298b9f-6aa1-07f0-d18e-4b7c90b6cc1f" testName="UpdateUserTestPhoneNumber" computerName="VIVEKK" duration="00:00:00.0030623" startTime="2016-09-01T08:42:36.2876527+05:30" endTime="2016-09-01T08:42:36.2916499+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0b1cee82-4f5e-4486-99ff-c8e7013e6f0b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at UserManagement.Test.UpdateuserTest.UpdateUserTestPhoneNumber() in C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\UpdateuserTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7a33a091-fa90-41ea-b019-e27bc1beb480" testId="b95369b6-c644-9701-9846-4f30763021d1" testName="testSelectByIdUser" computerName="VIVEKK" duration="00:00:00.0137983" startTime="2016-09-01T08:42:35.9988550+05:30" endTime="2016-09-01T08:42:36.0128452+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a33a091-fa90-41ea-b019-e27bc1beb480">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsNotNull failed. </Message>
+          <StackTrace>   at UserManagement.Test.SelectUserTest.testSelectByIdUser() in C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\SelectUserTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestForUserIdZero" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="f255c749-2dca-7fa1-f70e-9448a6a7b7ae">
+      <Execution id="2919b1ec-8890-40a7-a5cc-265e0178e213" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.CreateUserTest" name="TestForUserIdZero" />
+    </UnitTest>
+    <UnitTest name="UserSelectTestUsingSoldPrinciple" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="53f73177-ea75-f540-d311-6e4dec33a70e">
+      <Execution id="2b8d345e-1d0a-4bd9-8761-c577d3fea9d6" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.SOLIDTest" name="UserSelectTestUsingSoldPrinciple" />
+    </UnitTest>
+    <UnitTest name="TestFirstNameNull" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="44fb7f8c-5ceb-5ceb-b515-8ebb73d8e276">
+      <Execution id="27603d2e-c225-4822-bab4-6f3d7126e472" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.CreateUserTest" name="TestFirstNameNull" />
+    </UnitTest>
+    <UnitTest name="TestForUserIdNotSet" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="52608303-c7dc-e9f7-9675-69b33d4980b7">
+      <Execution id="4bbac8d1-1201-452f-a733-e3783421fe98" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.CreateUserTest" name="TestForUserIdNotSet" />
+    </UnitTest>
+    <UnitTest name="UserUpdateFirstNameTest" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="e2beefcb-b6e6-6a7b-a5a7-7de44cb58a8f">
+      <Execution id="3653cc9c-9f94-4232-b42f-02b0adce9c83" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.SOLIDTest" name="UserUpdateFirstNameTest" />
+    </UnitTest>
+    <UnitTest name="TestDeleteUserById" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="03c8c33e-0284-e92f-5c64-8ab64ba67d8f">
+      <Execution id="3426bb5a-fbd3-407e-bedc-5daea624946a" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.DeleteUserTest" name="TestDeleteUserById" />
+    </UnitTest>
+    <UnitTest name="UserDeleteByIdTest" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="49859b7a-1723-d929-d9e7-426eaba2c9a2">
+      <Execution id="4e2d118a-dc77-4059-8c10-04aac0eb2a6c" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.SOLIDTest" name="UserDeleteByIdTest" />
+    </UnitTest>
+    <UnitTest name="TestSelectAllUsers" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="a303f811-7283-0c5b-3645-a22db8fef9d5">
+      <Execution id="996d7cfa-0ac9-4523-9b1d-9ee682f99a06" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.SelectUserTest" name="TestSelectAllUsers" />
+    </UnitTest>
+    <UnitTest name="UpdateUserById" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="4b34e9ea-61a9-1dc3-c4dd-b1537a11ea7b">
+      <Execution id="9efacc32-410c-4d9c-b3ad-9ffd87472b24" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.UpdateuserTest" name="UpdateUserById" />
+    </UnitTest>
+    <UnitTest name="UpdateUserTestPhoneNumber" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="53298b9f-6aa1-07f0-d18e-4b7c90b6cc1f">
+      <Execution id="0b1cee82-4f5e-4486-99ff-c8e7013e6f0b" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.UpdateuserTest" name="UpdateUserTestPhoneNumber" />
+    </UnitTest>
+    <UnitTest name="testSelectByIdUser" storage="c:\users\vkamat\documents\visual studio 2015\projects\usermanagement\usermanagement.test\bin\debug\usermanagement.test.dll" id="b95369b6-c644-9701-9846-4f30763021d1">
+      <Execution id="7a33a091-fa90-41ea-b019-e27bc1beb480" />
+      <TestMethod codeBase="C:\Users\vkamat\documents\visual studio 2015\Projects\UserManagement\UserManagement.Test\bin\Debug\UserManagement.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="UserManagement.Test.SelectUserTest" name="testSelectByIdUser" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f255c749-2dca-7fa1-f70e-9448a6a7b7ae" executionId="2919b1ec-8890-40a7-a5cc-265e0178e213" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53f73177-ea75-f540-d311-6e4dec33a70e" executionId="2b8d345e-1d0a-4bd9-8761-c577d3fea9d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44fb7f8c-5ceb-5ceb-b515-8ebb73d8e276" executionId="27603d2e-c225-4822-bab4-6f3d7126e472" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52608303-c7dc-e9f7-9675-69b33d4980b7" executionId="4bbac8d1-1201-452f-a733-e3783421fe98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e2beefcb-b6e6-6a7b-a5a7-7de44cb58a8f" executionId="3653cc9c-9f94-4232-b42f-02b0adce9c83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03c8c33e-0284-e92f-5c64-8ab64ba67d8f" executionId="3426bb5a-fbd3-407e-bedc-5daea624946a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49859b7a-1723-d929-d9e7-426eaba2c9a2" executionId="4e2d118a-dc77-4059-8c10-04aac0eb2a6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a303f811-7283-0c5b-3645-a22db8fef9d5" executionId="996d7cfa-0ac9-4523-9b1d-9ee682f99a06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b34e9ea-61a9-1dc3-c4dd-b1537a11ea7b" executionId="9efacc32-410c-4d9c-b3ad-9ffd87472b24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53298b9f-6aa1-07f0-d18e-4b7c90b6cc1f" executionId="0b1cee82-4f5e-4486-99ff-c8e7013e6f0b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b95369b6-c644-9701-9846-4f30763021d1" executionId="7a33a091-fa90-41ea-b019-e27bc1beb480" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="11" executed="11" passed="6" failed="5" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
